@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF1837261CCB2C31006FD17C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1837251CCB2C31006FD17C /* main.m */; };
+		CF1837291CCB2C31006FD17C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1837281CCB2C31006FD17C /* AppDelegate.m */; };
+		CF18372C1CCB2C31006FD17C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF18372B1CCB2C31006FD17C /* ViewController.m */; };
+		CF18372F1CCB2C31006FD17C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF18372D1CCB2C31006FD17C /* Main.storyboard */; };
+		CF1837321CCB2C31006FD17C /* WipePictureGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF1837301CCB2C31006FD17C /* WipePictureGame.xcdatamodeld */; };
+		CF1837341CCB2C31006FD17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1837331CCB2C31006FD17C /* Assets.xcassets */; };
+		CF1837371CCB2C31006FD17C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1837351CCB2C31006FD17C /* LaunchScreen.storyboard */; };
+		CF1837421CCB2C31006FD17C /* WipePictureGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1837411CCB2C31006FD17C /* WipePictureGameTests.m */; };
+		CF18374D1CCB2C31006FD17C /* WipePictureGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF18374C1CCB2C31006FD17C /* WipePictureGameUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF18373E1CCB2C31006FD17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF1837191CCB2C31006FD17C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1837201CCB2C31006FD17C;
+			remoteInfo = WipePictureGame;
+		};
+		CF1837491CCB2C31006FD17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF1837191CCB2C31006FD17C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1837201CCB2C31006FD17C;
+			remoteInfo = WipePictureGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF1837211CCB2C31006FD17C /* WipePictureGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WipePictureGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1837251CCB2C31006FD17C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF1837271CCB2C31006FD17C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF1837281CCB2C31006FD17C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF18372A1CCB2C31006FD17C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF18372B1CCB2C31006FD17C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF18372E1CCB2C31006FD17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF1837311CCB2C31006FD17C /* WipePictureGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WipePictureGame.xcdatamodel; sourceTree = "<group>"; };
+		CF1837331CCB2C31006FD17C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF1837361CCB2C31006FD17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF1837381CCB2C31006FD17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF18373D1CCB2C31006FD17C /* WipePictureGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WipePictureGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1837411CCB2C31006FD17C /* WipePictureGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WipePictureGameTests.m; sourceTree = "<group>"; };
+		CF1837431CCB2C31006FD17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1837481CCB2C31006FD17C /* WipePictureGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WipePictureGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF18374C1CCB2C31006FD17C /* WipePictureGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WipePictureGameUITests.m; sourceTree = "<group>"; };
+		CF18374E1CCB2C31006FD17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF18371E1CCB2C31006FD17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF18373A1CCB2C31006FD17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1837451CCB2C31006FD17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF1837181CCB2C31006FD17C = {
+			isa = PBXGroup;
+			children = (
+				CF1837231CCB2C31006FD17C /* WipePictureGame */,
+				CF1837401CCB2C31006FD17C /* WipePictureGameTests */,
+				CF18374B1CCB2C31006FD17C /* WipePictureGameUITests */,
+				CF1837221CCB2C31006FD17C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF1837221CCB2C31006FD17C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF1837211CCB2C31006FD17C /* WipePictureGame.app */,
+				CF18373D1CCB2C31006FD17C /* WipePictureGameTests.xctest */,
+				CF1837481CCB2C31006FD17C /* WipePictureGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1837231CCB2C31006FD17C /* WipePictureGame */ = {
+			isa = PBXGroup;
+			children = (
+				CF1837271CCB2C31006FD17C /* AppDelegate.h */,
+				CF1837281CCB2C31006FD17C /* AppDelegate.m */,
+				CF18372A1CCB2C31006FD17C /* ViewController.h */,
+				CF18372B1CCB2C31006FD17C /* ViewController.m */,
+				CF18372D1CCB2C31006FD17C /* Main.storyboard */,
+				CF1837331CCB2C31006FD17C /* Assets.xcassets */,
+				CF1837351CCB2C31006FD17C /* LaunchScreen.storyboard */,
+				CF1837381CCB2C31006FD17C /* Info.plist */,
+				CF1837301CCB2C31006FD17C /* WipePictureGame.xcdatamodeld */,
+				CF1837241CCB2C31006FD17C /* Supporting Files */,
+			);
+			path = WipePictureGame;
+			sourceTree = "<group>";
+		};
+		CF1837241CCB2C31006FD17C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF1837251CCB2C31006FD17C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF1837401CCB2C31006FD17C /* WipePictureGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF1837411CCB2C31006FD17C /* WipePictureGameTests.m */,
+				CF1837431CCB2C31006FD17C /* Info.plist */,
+			);
+			path = WipePictureGameTests;
+			sourceTree = "<group>";
+		};
+		CF18374B1CCB2C31006FD17C /* WipePictureGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF18374C1CCB2C31006FD17C /* WipePictureGameUITests.m */,
+				CF18374E1CCB2C31006FD17C /* Info.plist */,
+			);
+			path = WipePictureGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF1837201CCB2C31006FD17C /* WipePictureGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1837511CCB2C31006FD17C /* Build configuration list for PBXNativeTarget "WipePictureGame" */;
+			buildPhases = (
+				CF18371D1CCB2C31006FD17C /* Sources */,
+				CF18371E1CCB2C31006FD17C /* Frameworks */,
+				CF18371F1CCB2C31006FD17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WipePictureGame;
+			productName = WipePictureGame;
+			productReference = CF1837211CCB2C31006FD17C /* WipePictureGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF18373C1CCB2C31006FD17C /* WipePictureGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1837541CCB2C31006FD17C /* Build configuration list for PBXNativeTarget "WipePictureGameTests" */;
+			buildPhases = (
+				CF1837391CCB2C31006FD17C /* Sources */,
+				CF18373A1CCB2C31006FD17C /* Frameworks */,
+				CF18373B1CCB2C31006FD17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF18373F1CCB2C31006FD17C /* PBXTargetDependency */,
+			);
+			name = WipePictureGameTests;
+			productName = WipePictureGameTests;
+			productReference = CF18373D1CCB2C31006FD17C /* WipePictureGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF1837471CCB2C31006FD17C /* WipePictureGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1837571CCB2C31006FD17C /* Build configuration list for PBXNativeTarget "WipePictureGameUITests" */;
+			buildPhases = (
+				CF1837441CCB2C31006FD17C /* Sources */,
+				CF1837451CCB2C31006FD17C /* Frameworks */,
+				CF1837461CCB2C31006FD17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF18374A1CCB2C31006FD17C /* PBXTargetDependency */,
+			);
+			name = WipePictureGameUITests;
+			productName = WipePictureGameUITests;
+			productReference = CF1837481CCB2C31006FD17C /* WipePictureGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF1837191CCB2C31006FD17C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF1837201CCB2C31006FD17C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF18373C1CCB2C31006FD17C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF1837201CCB2C31006FD17C;
+					};
+					CF1837471CCB2C31006FD17C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF1837201CCB2C31006FD17C;
+					};
+				};
+			};
+			buildConfigurationList = CF18371C1CCB2C31006FD17C /* Build configuration list for PBXProject "WipePictureGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1837181CCB2C31006FD17C;
+			productRefGroup = CF1837221CCB2C31006FD17C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF1837201CCB2C31006FD17C /* WipePictureGame */,
+				CF18373C1CCB2C31006FD17C /* WipePictureGameTests */,
+				CF1837471CCB2C31006FD17C /* WipePictureGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF18371F1CCB2C31006FD17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1837371CCB2C31006FD17C /* LaunchScreen.storyboard in Resources */,
+				CF1837341CCB2C31006FD17C /* Assets.xcassets in Resources */,
+				CF18372F1CCB2C31006FD17C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF18373B1CCB2C31006FD17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1837461CCB2C31006FD17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF18371D1CCB2C31006FD17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18372C1CCB2C31006FD17C /* ViewController.m in Sources */,
+				CF1837291CCB2C31006FD17C /* AppDelegate.m in Sources */,
+				CF1837261CCB2C31006FD17C /* main.m in Sources */,
+				CF1837321CCB2C31006FD17C /* WipePictureGame.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1837391CCB2C31006FD17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1837421CCB2C31006FD17C /* WipePictureGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1837441CCB2C31006FD17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18374D1CCB2C31006FD17C /* WipePictureGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF18373F1CCB2C31006FD17C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF1837201CCB2C31006FD17C /* WipePictureGame */;
+			targetProxy = CF18373E1CCB2C31006FD17C /* PBXContainerItemProxy */;
+		};
+		CF18374A1CCB2C31006FD17C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF1837201CCB2C31006FD17C /* WipePictureGame */;
+			targetProxy = CF1837491CCB2C31006FD17C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF18372D1CCB2C31006FD17C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF18372E1CCB2C31006FD17C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF1837351CCB2C31006FD17C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF1837361CCB2C31006FD17C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF18374F1CCB2C31006FD17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF1837501CCB2C31006FD17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF1837521CCB2C31006FD17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WipePictureGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.WipePictureGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF1837531CCB2C31006FD17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WipePictureGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.WipePictureGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF1837551CCB2C31006FD17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WipePictureGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.WipePictureGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WipePictureGame.app/WipePictureGame";
+			};
+			name = Debug;
+		};
+		CF1837561CCB2C31006FD17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WipePictureGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.WipePictureGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WipePictureGame.app/WipePictureGame";
+			};
+			name = Release;
+		};
+		CF1837581CCB2C31006FD17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WipePictureGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.WipePictureGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WipePictureGame;
+			};
+			name = Debug;
+		};
+		CF1837591CCB2C31006FD17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WipePictureGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.WipePictureGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WipePictureGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF18371C1CCB2C31006FD17C /* Build configuration list for PBXProject "WipePictureGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF18374F1CCB2C31006FD17C /* Debug */,
+				CF1837501CCB2C31006FD17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1837511CCB2C31006FD17C /* Build configuration list for PBXNativeTarget "WipePictureGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1837521CCB2C31006FD17C /* Debug */,
+				CF1837531CCB2C31006FD17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF1837541CCB2C31006FD17C /* Build configuration list for PBXNativeTarget "WipePictureGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1837551CCB2C31006FD17C /* Debug */,
+				CF1837561CCB2C31006FD17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF1837571CCB2C31006FD17C /* Build configuration list for PBXNativeTarget "WipePictureGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1837581CCB2C31006FD17C /* Debug */,
+				CF1837591CCB2C31006FD17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF1837301CCB2C31006FD17C /* WipePictureGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF1837311CCB2C31006FD17C /* WipePictureGame.xcdatamodel */,
+			);
+			currentVersion = CF1837311CCB2C31006FD17C /* WipePictureGame.xcdatamodel */;
+			path = WipePictureGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF1837191CCB2C31006FD17C /* Project object */;
+}
